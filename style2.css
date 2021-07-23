@@ -1,0 +1,75 @@
+@font-face{
+	font-family:"Caudex-Regular";
+	src:url(aboba/Oswald-Medium.ttf);
+}
+body{
+	margin:0;
+	background-color:#000000;
+}
+
+header{
+	background-color:#191919;
+	padding:25px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom:8px solid lime;
+}
+
+.header-menu{
+	display: flex;
+	align-items: center;
+}
+
+.header-menu a{
+	margin-left: 10px;
+}
+
+.main-menu img{
+	margin: 15px;
+	
+}
+
+.main-menu{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+main{
+	
+}
+
+footer{
+	background-color:#191919;
+	padding:35px;
+	border-top:8px solid lime;
+}
+
+main{
+	padding:35px 0;
+}
+
+.img{
+	margin-left:calc(50% - 580px);
+} 
+.item{
+	
+	width:360px;
+	text-align:center;
+	margin:55px 40px 55px 0;
+}
+.item a{
+	text-decoration:none;
+	color: white;
+	background-color:lime;
+	padding:10px 123px;
+	font-size:41px;
+	font-family:"Caudex-Regular";
+	
+}
+.row{
+	display:flex;
+	font-family:"Caudex-Regular";
+	margin-left:calc(50% - 580px);
+	
+}
